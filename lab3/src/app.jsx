@@ -16,14 +16,14 @@ var Page2Page = require('./pages/Page2Page');
 var menuItems = [
   // inject:menuitems
   { payload: 'home', text: 'lab3' },
-  { payload: 'page2', text: 'Page2' },
+  { payload: 'page2', text: 'page2' },
   // endinject
 ];
 
 var titles = {
   // inject:titles
   '/home': 'lab3',
-  '/page2': 'Page2',
+  '/page2': 'page2',
   // endinject
 };
 

@@ -16,15 +16,15 @@ var Page2Page = require('./pages/Page2Page');
 
 var menuItems = [
   // inject:menuitems
-  { payload: 'home', text: 'lab3' },
-  { payload: 'page2', text: 'Page2' },
+  { payload: 'home', text: 'Home' },
+  { payload: 'page2', text: 'Page 2' },
   // endinject
 ];
 
 var titles = {
   // inject:titles
-  '/home': 'lab3',
-  '/page2': 'Page2',
+  '/home': 'Lab 3 Challenge',
+  '/page2': 'Page 2',
   // endinject
 };
 
@@ -27828,7 +27828,7 @@ module.exports = React.createClass({displayName: "exports",
   render: function () {
     return (
       React.createElement("div", {className: "home-page"}, 
-        "lab3"
+        "This is a page."
       )
     );
   }
@@ -27876,7 +27876,7 @@ module.exports = React.createClass({displayName: "exports",
   render: function () {
     return (
       React.createElement("div", {className: "page2-page"}, 
-        "Page2"
+        "This is another page!"
       )
     );
   }

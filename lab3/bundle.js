@@ -23,6 +23,7 @@ var menuItems = [
 
 var titles = {
   // inject:titles
+  '/': 'Lab 3 Challenge',
   '/home': 'Lab 3 Challenge',
   '/page2': 'Page 2',
   // endinject
